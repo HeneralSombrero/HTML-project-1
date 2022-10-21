@@ -1,99 +1,9 @@
-/* HEADER SECTION */
-
-.header-h{
-    margin-bottom: 15px;
-}
-.header{
-    padding: 14px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header-left{
-    display: flex;
-    align-items: center;
-    
-}
-.header-left-logo{
-    width: 122px;
-}
-
-.header-right-menu{
-    display: flex;
-    align-items: center;
-}
-.header-right-menu-ul{
-    display: flex;
-}
-.header-right-menu-ul>li>a{
-    padding: 0 16px;
-    font-weight: 600;
-    font-size: 16px;
-    display: inline-block;
-    position: relative;
-}
-.header-right-menu-button{
-    background: rgba(245, 138, 7, 0.1);
-    color: #F58A07;
-    border-radius: 30px;
-    margin-left: 15px;
-
-    display: inline-block;
-    padding: 18px 30px;
-
-    font-weight: 600;
-    font-size: 16px;
-}
-
-/* GREETINGS SECTION */
-
-.header-g{
-    background: #DCEAF5;
-}
-.greetings-content{
-    display: flex;
-}
-.greetings-left{
-    padding: 100px 0;
-}
-.greetings-left-buttons{
-    display: flex;
-    align-items: center;
-}
-.greetings-left-button-left{
-    background: #F58A07;
-    color: white;
-    border-radius: 32px;
-    margin-right: 40px;
-
-    display: inline-block;
-    padding: 18px 32px;
-
-    font-weight: 600;
-    font-size: 16px;
-}
-.greetings-left-button-right{
-    font-weight: 600;
-}
-.greetings-left-logo-text{
-    color: rgba(57, 65, 73, 0.5);
-}
-.greetings-left-logo-main img{
-    margin-right: 45px;
-}
-.greetings-right{
-    padding: 0;
-}
-.greetings-right-img img{
-    margin-right: -5vw;
-    margin-bottom: auto;
-}
-
-/* -+=+- BODY -+=+- */
+/* -+=+- MAIN -+=+- */
 /* HELPER SECTION */
 
 .helper{
     margin-top: 85px;
+    margin-bottom: 96px;
 }
 .helper-text{
     width: 735px;
@@ -120,3 +30,50 @@
     color: #F58A07;
     font-size: 16px;
 }
+
+/* FEATURE SECTION */
+
+.feature{
+    background: #EDF7FF;
+}
+.feature-contents{
+    padding: 96px 0;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+    margin-bottom: 64px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 48%;
+}
+
+.container-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 40px;
+}
+.col3{
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 400px;
+}
+.col3 img{
+    width: 33px;
+    margin-bottom: 32px;
+}
+
