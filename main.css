@@ -87,6 +87,7 @@
     margin: 100px 0;
 }
 
+
 .about-top-left{
     display: flex;
     flex-direction: column;
@@ -103,23 +104,102 @@
     gap: 25px;
 }
 
-.about-top-right-img{
+.about-top-right{
     position: relative;
-    overflow: hidden;
 }
-.about-top-right-img img{
+.about-top-right img{
     border-radius: 20px;
+    display: block;
 }
-.about-top-right-img::after{
-    content: "";
+.about-top-right-img-decor{
     position: absolute;
     top: 0;
-    left: 0;
     height: 100%;
-    width: 200px;
-    background-color: #F58A07;
+    width: 25%;
 
+    background: #F58A07;
     mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+}
+
+
+.about-bottom-canvas{
+    position: relative;
+    background: #EDF7FF;
+    border-radius: 20px;
+    padding: 48px;
+
+    margin-bottom: 128px;
+}
+.about-bottom-menu{
+    margin-bottom: 80px;
+}
+.about-click{
+    color: #F58A07;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+
+    display: inline-block;
+    margin: 0 12px 0 0;
+    padding: 8px 24px;
+    background: white;
+    border-radius: 30px;
+}
+.about-unclick{
+    color: rgba(6, 50, 85, 0.3);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+
+    display: inline-block;
+    margin: 0 12px;
+    padding: 8px 24px;
+    border-radius: 30px;
+    border: rgba(6, 50, 85, 0.3) solid 2px;
+}
+
+.about-bottom-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-bottom-left{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-basis: 45%;
+}
+.about-bottom-left p{
+    line-height: 30px;
+}
+.about-bottom-left a{
+    color: #F58A07;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.about-bottom-right{
+    position: relative;
+}
+.about-bottom-right img{
+    border-radius: 20px;
+    display: block;
+}
+.about-bottom-right-img-decor{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 25%;
+
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+}
+.about-bottom-decor img{
+    position: absolute;
+    top: -16px;
+    right: -16px;
 }
 
 
