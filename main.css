@@ -77,3 +77,51 @@
     margin-bottom: 32px;
 }
 
+/* ABOUT SECTION */
+
+.about-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 100px 0;
+}
+
+.about-top-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 45%;
+    align-items: center;
+}
+.about-top-left-row{
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.about-top-right-img{
+    position: relative;
+    overflow: hidden;
+}
+.about-top-right-img img{
+    border-radius: 20px;
+}
+.about-top-right-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #F58A07;
+
+    mix-blend-mode: multiply;
+}
+
+
+
+
