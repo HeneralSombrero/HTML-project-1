@@ -202,6 +202,148 @@
     right: -16px;
 }
 
+/* JOBS SECTION */
+
+.jobs{
+    position: relative;
+    background: #F58A07;
+}
+.jobs-bg{
+    background-image: url(images/experience-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+.jobs-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.jobs-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 640px;
+}
+.jobs-right{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 512px;
+    padding: 128px 0 128px 128px;
+}
+.jobs-right-button{
+    color: #F58A07;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 600;
+
+    display: inline-block;
+    padding: 18px 32px;
+    background: white;
+    border-radius: 30px;
+
+    margin-top: 40px;
+}
+
+/* VIDEO PART */
+
+.video{
+    padding: 128px 0;
+}
+.video-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.video-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 45%;
+}
+.video-left-profile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.video-left-profile-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+.profile-name{
+    margin: 0;
+    font-size: 24px;
+    line-height: 41px;
+    font-weight: 500;
+    color: #063255;
+}
+.profile-prof{
+    margin: 0;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 500;
+    color: #F58A07;
+}
+.video-right{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+
+    position: relative;
+}
+.video-right::after{
+    content: "";
+    background: white;
+
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+/* LATEST SECTION */
+
+.latest{
+    background: #DCEAF5
+}
+.latest-contents{
+    padding: 96px 0;
+}
+.latest-posts{
+    margin-top: 64px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.colh{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+    
+    background: white;
+    border-radius: 20px;
+}
+.colh img{
+    border-radius: 20px;
+}
+.colh-text{
+    padding: 32px;
+}
+.colh a{
+    color: #F58A07;
+    font-size: 16px;
+}
+
 
 
 

@@ -66,10 +66,17 @@ h5{
 .has-white{
     color: white;
 }
+.has-orange{
+    color: #F58A07;
+}
 
 .has-num-emphasis{
     color: #F58A07;
     font-size: 36px;
     line-height: 50px;
     font-weight: 700;
+}
+
+.has-ul{
+    list-style-type: disc;
 }
